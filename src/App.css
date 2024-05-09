@@ -1,0 +1,211 @@
+/* Navbar styling */
+nav{
+  padding: 12px 12px;
+  border-bottom: 2px solid #f3e4e4;
+} 
+
+.nav-container{
+  max-width: 100vw;
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left{
+  display: flex;
+  gap: 4px;
+}
+.nav-left:hover{
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+
+.nav-left h1{
+  font-size: 20px;
+  font-weight: 400;
+  color: #1d0101;
+}
+.nav-right{
+  display: flex;
+  gap: 8px;
+  margin-right: 12px;
+
+}
+.nav-right a:hover{
+  border-bottom: 2px solid black;
+  
+}
+
+/* Footer styling */
+
+footer{
+  height: 100px;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4dada;
+}
+
+/* Sign Up styling */
+.signup-container{
+  min-height: 80vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-container h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.signup-form{
+  min-height: 400px;
+  min-width: 400px;
+  margin-top: 5px;
+}
+
+.signup-form Input{
+  margin-top: 5px;
+}
+
+.signup-form Button{
+  margin: 5px;
+}
+
+/* Login page styling */
+
+.login-container-2{
+  min-height: 90vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+
+.login-container-2 h1{
+  font-size: 20px;
+  font-weight: 500;
+}
+.login-form{
+  min-height: 400px;
+  min-width: 400px;
+  margin-top: 5px;
+}
+
+.login-form Input{
+  margin-top: 5px;
+}
+
+.login-form Button{
+  margin: 5px;
+}
+
+/* Property Listing page */
+.container-md h1{
+  
+  font-size: 20px;
+  font-weight: 500;
+  margin: 8px 0 8px 0 ;
+}
+
+.container-md{
+  border: #1d0101 1px solid;
+  border-radius: 8px;
+  min-width: 800px;
+  /* font-size: 30px; */
+}
+
+.img-upload-div{
+  /* display: flex; */
+ margin-left: 8px;
+ max-width: 300px;
+}
+
+.purpose-radio{
+  margin: 5px 0 8px 0;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.descr-input-1{
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-evenly;
+}
+.descr-input-2{
+  display: flex;
+  margin-top: 8px;
+}
+.descr-input-3{
+  display: flex;
+  margin-top: 8px;
+}
+.descr-drpdowns {
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.descr-drpdowns-1{
+  display: flex;
+  flex-direction: column;
+}
+.listPro-img-Input{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.descr-input-1 .MuiTextField-root {
+  margin-right: 10px; /* Add margin to the right of each text field */
+}
+
+.descr-input-1 .MuiTextField-root:last-child {
+  margin-right: 0; /* Remove margin from the last text field */
+}
+
+.descr-input-2 .MuiTextField-root {
+  margin-right: 10px; /* Add margin to the right of each text field */
+}
+
+.descr-input-2 .MuiTextField-root:last-child {
+  margin-right: 0; /* Remove margin from the last text field */
+}
+
+.descr-input-3 .MuiTextField-root {
+  margin-right: 10px; /* Add margin to the right of each text field */
+}
+
+.descr-input-3 .MuiTextField-root:last-child {
+  margin-right: 0; /* Remove margin from the last text field */
+}
+
+.submit-listing {
+  width: 100%; /* Set width to 100% */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* List Properties
+ */
+
+.listPro-img-Input{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.list-property-gallery{
+  margin-top: 10px;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.list-property-gallery-img{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 12px;
+}
